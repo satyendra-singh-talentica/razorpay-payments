@@ -84,7 +84,7 @@ class Payment extends Component {
                 <button
                     onClick={this.openCheckout}
                     style={{ backgroundColor: 'brown', color: 'white', marginLeft: 5 }}>
-                    Pay Rs. {this.state.inputValue}
+                    Pay
                 </button>
 
                 <div id="razorpay_order_id" name="razorpay_order_id">
